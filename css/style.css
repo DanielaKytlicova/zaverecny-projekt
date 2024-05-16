@@ -1,0 +1,91 @@
+body{
+    padding: 0;
+    margin: 0;
+    font-family: "Roboto Mono", monospace;
+}
+
+.menu{
+    background-color: #249DA0;
+    color: white;
+    padding: 1%;
+    text-align: right;
+}
+
+    
+.menu li {
+    padding: 0;
+    margin: 0;
+    background-color: #249DA0;
+    display: inline-block;
+
+}
+.menu a {
+    color: white;
+    text-decoration: none;
+    display: inline-block;
+    
+}
+.menu img{
+   width: 100px;
+   float: left;
+   margin-top: 10px;
+}
+
+
+.uvodni{
+    background-image: url(image/Uvodni.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    max-height: 100px;
+    color: white;
+    padding: 30%;
+
+}
+
+p{
+    padding: 0% 10%;
+    text-align: center;
+}
+
+.vybaveni{
+    display: block;
+    background-color: #249DA0;
+    padding: 5%;
+    color: white;
+    text-align: center;
+}
+.vybaveni img {
+    width: 100%;
+    align-items: center;
+    max-width: 100%;
+    height: auto;
+    
+}
+
+
+h2{
+    text-align: center;
+}
+
+h3 {
+    text-align: center;
+}
+
+.map {
+    float: right;
+    margin-right: 10px; 
+}
+.kontakt {
+   clear: both;
+}
+
+
+footer{
+    background-color: #249DA0;
+    color: white;
+    padding: 1%;
+}
+
+
+
+
