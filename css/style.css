@@ -1,8 +1,12 @@
 body{
     padding: 0;
     margin: 0;
-    font-family: "Roboto Mono", monospace;
+    font-family: "MujFont", monospace;
 }
+@font-face {
+    font-family: 'MujFont'; 
+    src: url("Fonty\ TULab/TULMono-Regular.ttf"); 
+  }
 
 .menu{
     background-color: #249DA0;
@@ -34,11 +38,12 @@ body{
 
 .uvodni{
     background-image: url(image/Uvodni.png);
-    background-repeat: no-repeat;
-    background-size: cover;
-    max-height: 100px;
+    background-repeat:no-repeat;
+    background-size:contain; 
+    max-height: 50px;
     color: white;
-    padding: 30%;
+    padding: 30%; 
+
 
 }
 
@@ -54,14 +59,25 @@ p{
     color: white;
     text-align: center;
 }
-.vybaveni img {
+.foto{
+    max-width: 300px;
+}
+/* .vybaveni img {
     width: 100%;
     align-items: center;
     max-width: 100%;
     height: auto;
     
-}
+} */
 
+h1 {
+    font-size: 40px;
+    float: inline-end;
+    color: white;
+    padding: 0 10%;
+    margin: 15%;
+    text-align: center;
+}
 
 h2{
     text-align: center;
@@ -71,13 +87,50 @@ h3 {
     text-align: center;
 }
 
+.onas {
+    padding: 6%;
+}
+
 .map {
     float: right;
     margin-right: 10px; 
+    padding: 10%;
+} 
+
+
+#kudyknam {
+    padding: 40px;
+}
+
+.doba{
+    /* display:grid; */
+ font-size: 20px;
 }
 .kontakt {
-   clear: both;
+    padding: 5%;
+    background-color: #249DA0;
+    clear: both;
+    color: wheat;
 }
+
+.sponzori{
+    padding: 5%;
+}
+
+.logo{
+    max-width: 80px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 20px; 
+  }
+  
 
 
 footer{
@@ -87,5 +140,8 @@ footer{
 }
 
 
-
-
+@media screen and (min-width: 990px) {
+    h1 {
+        font-size: 60px;
+    }
+}
