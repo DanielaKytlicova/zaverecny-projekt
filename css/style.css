@@ -143,23 +143,24 @@ footer{
 }
 
 
-@media screen and (min-width: 990px) {
+
+@media screen and (min-width: 900px) {
     h1 {
         font-size: 60px;
     }
+
 }
+
  .container {
     display: flex;
     align-items: center;
 }
 
-/* Levá polovina (text) */
 .left {
     flex: 1;
     padding: 20px;
 }
 
-/* Pravá polovina (obrázek) */
 .right {
     flex: 1;
     padding: 20px;
@@ -168,4 +169,14 @@ footer{
 } 
 .container ul, li {
     text-align: left;
+}
+
+.galerie {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); 
+    grid-gap: 10px; 
+}
+img {
+    justify-self: center; 
+    align-self: center; 
 }
