@@ -5,7 +5,7 @@ body{
 }
 @font-face {
     font-family: 'MujFont'; 
-    src: url("Fonty\ TULab/TULMono-Regular.ttf"); 
+    src: url("/Fonty\ TULab/TULMono-Regular.ttf"); 
   }
 
 .menu{
@@ -37,7 +37,7 @@ body{
 
 
 .uvodni{
-    background-image: url(image/Uvodni.png);
+    background-image: url(/image/Uvodni.png);
     background-repeat:no-repeat;
     background-size:contain; 
     max-height: 50px;
@@ -113,9 +113,6 @@ h3 {
     color: wheat;
 }
 
-.sponzori{
-    padding: 5%;
-}
 
 .logo{
     max-width: 80px;
@@ -145,3 +142,21 @@ footer{
         font-size: 60px;
     }
 }
+ .container {
+    display: flex;
+    align-items: center;
+}
+
+/* Levá polovina (text) */
+.left {
+    flex: 1;
+    padding: 20px;
+}
+
+/* Pravá polovina (obrázek) */
+.right {
+    flex: 1;
+    padding: 20px;
+    text-align: right;
+    float: right;
+} 
