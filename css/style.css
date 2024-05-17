@@ -4,31 +4,33 @@ body{
     font-family: "MujFont", monospace;
 }
 @font-face {
-    font-family: 'MujFont'; 
+    font-family: "MujFont"; 
     src: url("/Fonty\ TULab/TULMono-Regular.ttf"); 
   }
 
 .menu{
+    padding: 0;
+    margin: 0;
     background-color: #249DA0;
     color: white;
     padding: 1%;
     text-align: right;
+
 }
 
     
 .menu li {
-    padding: 0;
-    margin: 0;
+
     background-color: #249DA0;
     display: inline-block;
 
 }
 .menu a {
+
+    padding: 8px;
     color: white;
     text-decoration: none;
     display: inline-block;
-
-    
 }
 .menu img{
    width: 100px;
@@ -59,8 +61,10 @@ p{
     color: white;
     text-align: center;
 }
+
 .foto{
     max-width: 300px;
+    border-radius: 10px;
 }
 /* .vybaveni img {
     width: 100%;
@@ -120,11 +124,16 @@ h3 {
 }
 
 
-.logo{
-    max-width: 80px;
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
+.logo-container img{
+    max-width: 100px;
+    display: inline-block; 
+    text-align: center;
+    margin: 30px;
+
+}
+.logo-container {
+    text-align: center; 
+    margin: 30px;
 
 }
 
@@ -180,3 +189,17 @@ img {
     justify-self: center; 
     align-self: center; 
 }
+
+    @media screen and (max-width: 600px) {
+        .galerie {
+            display: flex;
+            flex-wrap: wrap;
+        }
+
+        .galerie-foto {
+            flex: 1 1 50%; 
+            margin: auto;
+            display: block;   
+        }
+
+    }
