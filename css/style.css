@@ -27,6 +27,7 @@ body{
     color: white;
     text-decoration: none;
     display: inline-block;
+
     
 }
 .menu img{
@@ -48,7 +49,6 @@ body{
 }
 
 p{
-    padding: 0% 10%;
     text-align: center;
 }
 
@@ -102,9 +102,15 @@ h3 {
     padding: 40px;
 }
 
-.doba{
-    /* display:grid; */
- font-size: 20px;
+.grid-container {
+    display: grid;
+    place-items: center; 
+}
+
+.doba {
+    font-size: 20px;
+    text-align: center; 
+    padding: 0;
 }
 .kontakt {
     padding: 5%;
@@ -160,3 +166,6 @@ footer{
     text-align: right;
     float: right;
 } 
+.container ul, li {
+    text-align: left;
+}
