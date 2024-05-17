@@ -14,11 +14,6 @@ node_modules/
 .history
 .ionide
 
-### macOS ###
-.DS_Store
-.AppleDouble
-.LSOverride
-
 ### Windows ###
 Thumbs.db
 Thumbs.db:encryptable
